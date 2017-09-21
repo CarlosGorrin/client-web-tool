@@ -1,0 +1,15 @@
+/* TAG DEFAULTS*/
+body{
+  color: $core-text;
+  font-family: $font-family-default;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  moz-font-smoothing: antialiased;
+}
+p{
+  font-weight: $font-weight-regular;
+}
+span{
+  color: $secondary-link;
+  font-weight: $font-weight-bold;
+}

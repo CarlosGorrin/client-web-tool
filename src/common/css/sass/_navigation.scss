@@ -1,0 +1,41 @@
+
+.navigation{
+  li{
+    list-style: none;
+    color: $white;
+    margin-bottom: 1.5em;
+    padding-left: 20px;
+    &:hover{
+      background: $white;
+      i,span{
+        color:$core-accent;
+      }
+    }
+    i{
+      color:$white;
+      font-size: 1em;
+    }:hover{
+      color:$light-gray;
+    }
+    span{
+      color:$white;
+      font-size: 0.75em;
+      margin-left: 10px;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm){
+  .navigation{
+    li{
+      float: left;
+      margin: 0 10px;
+      span{
+        display: none;
+      }
+    }
+    &:first-child{
+      width: 100%;
+    }
+  }
+}

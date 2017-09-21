@@ -1,0 +1,10 @@
+.styleguide{
+  .title-with-link{
+    margin: 10px;
+    .more-info{
+      font-size: 0.75rem;
+      line-height: 1.75rem;
+      font-size: $font-weight-light;
+    }
+  }
+}
