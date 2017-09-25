@@ -1,6 +1,6 @@
 # App with React-webpack-sass
 
-React proyect.
+React project.
 
 ## node v7.9.0 // npm v6.6.1
 
